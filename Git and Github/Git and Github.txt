@@ -1,0 +1,36 @@
+Q-1. Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+Importance of Version Control systems- version control is an essential tool for software developers as it helps them manage changes and versions of code and artifacts, and resolve merge conflicts and related anomalies. It also facilitates coordination, sharing, and collaboration across the entire software development team, enables teams to work in distributed and asynchronous environments, and helps software teams work faster and smarter, especially for DevOps teams.
+
+Q-2. Git is a version control system that helps developers track changes to their code over time. It has three main components: the working directory, the staging area, and the local repository.
+The working directory is where you make changes to your files. The staging area is where you prepare your changes to be committed. The local repository is where your changes are saved after you commit them.
+Here's how the workflow works:
+1. You make changes to your files in the working directory.
+2. You add the changes you want to commit to the staging area.
+3. You commit the changes in the staging area to the local repository.
+
+This workflow allows you to keep track of changes to your code over time, collaborate with others, and revert to previous versions if necessary.
+
+Q-3.  .gitignore is a special file used in Git version control systems to specify which files and directories should be ignored by Git. This means that Git will not track changes in the files and directories listed in .gitignore.
+Importance of .gitignore is -
+1. .gitignore prevents Git from tracking the specified files, it doesn't remove them from the local file system. So, if a file is already tracked by Git and you add it to .gitignore, it won't be automatically removed from the repository. 
+2. Sometimes, there are files or directories that contain sensitive information like passwords, API keys, or configuration files with sensitive information. Ignoring these files ensures that they are not accidentally shared or committed to the repository.
+
+
+Q-4. GitHub is a web-based platform for version control and collaboration that allows individuals and teams to manage and track changes to their code and other project files.
+It facilitates collaboration in the following ways:-
+Version Control: GitHub uses Git, a distributed version control system, to keep track of changes made to project files. This enables users to work on different parts of a project simultaneously, merge their changes, and maintain a history of all revisions.
+Collaboration: GitHub provides features like issue tracking, pull requests, and wikis, making it easy for multiple contributors to collaborate on a project. Users can comment, review, and discuss code changes, report and manage issues, and document their work.
+Alternatives of git is - gitlab, bitbucket, awscodecommit.
+
+
+Q-5.  here is a step-by-step guide to contributing to an open-source project on GitHub:
+
+1.Fork the repository: Fork the repository you want to contribute to by clicking the “Fork” button on the repository’s page. This creates a copy of the repository in your own GitHub account.
+2.Clone the repository: Clone the forked repository to the local machine using the "git clone" command. This will create a local copy of the repository on the machine.
+3.Create a new branch: Create a new branch for changes using the "git checkout -b" command. This will allow me to make changes to the codebase without affecting the main branch.
+4.Make changes: Make the desired changes to the codebase using my preferred text editor or IDE.
+5.Commit changes: Commit changes to the local repository using the git commit command. This will save changes to the local repository.
+6.Push changes: Push the changes to the forked repository on GitHub using the "git push" command.
+7.Create a pull request: Create a pull request by clicking the “New pull request” button on the original repository’s page. This will allow the repository owner to review the changes and merge them into the main branch if they are deemed acceptable. 
+
+Q-6. 
