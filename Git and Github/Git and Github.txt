@@ -33,4 +33,4 @@ Q-5.  here is a step-by-step guide to contributing to an open-source project on 
 6.Push changes: Push the changes to the forked repository on GitHub using the "git push" command.
 7.Create a pull request: Create a pull request by clicking the “New pull request” button on the original repository’s page. This will allow the repository owner to review the changes and merge them into the main branch if they are deemed acceptable. 
 
-Q-6. 
+Q-6. Not done
